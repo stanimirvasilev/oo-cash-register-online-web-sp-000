@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def items
-    
+    new_register
     @item 
   end  
 
