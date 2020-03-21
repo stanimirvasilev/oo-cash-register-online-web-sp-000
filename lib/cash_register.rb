@@ -18,8 +18,8 @@ class CashRegister
   
   def apply_discount
    #we need to treath it as a flow 
-    @total = @total - 
-   
+    @total = @total.to_f - discount.to_f
+  
   end
   
   
