@@ -18,8 +18,8 @@ class CashRegister
   
   def apply_discount
    #we need to treath it as a flow 
-    @total = (@total.to_f).percent_of(total)
-  
+    @total = @total - (@total.to_f).percent_of(total)
+  # total = totala - (X)% discount ot totala 
   end
   
   
