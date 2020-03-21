@@ -15,10 +15,6 @@ class CashRegister
     number_items.times do
       @items << item
     end
-    
-    #@items << item.(number_items).times do
-  end
-   #binding.pry
   end
   
   
