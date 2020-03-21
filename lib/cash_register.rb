@@ -11,7 +11,7 @@ class CashRegister
   
   def add_item(item, cost = 0, number_items = 1)
     @total += cost * number_items
-    @items << item 
+    @items << item.(number_items).times do
    #binding.pry
   end
   
