@@ -25,7 +25,7 @@ class CashRegister
     end
   end
   
-  def items(new_items)
+  def items(new_items = 1)
     new_register = CashRegister.new
     @items << new_items
     @items
