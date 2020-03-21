@@ -17,6 +17,7 @@ class CashRegister
   
   
   def apply_discount
+   #we need to treath it as a flow 
     @total = @total - 
    
   end
