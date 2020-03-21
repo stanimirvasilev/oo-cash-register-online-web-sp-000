@@ -31,6 +31,8 @@ class CashRegister
     @items
   end  
 
-def 
+def void_last_transaction
+  @total -= cost * number_items
+end 
   
 end
