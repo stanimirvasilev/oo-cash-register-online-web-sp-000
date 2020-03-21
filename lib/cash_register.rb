@@ -26,7 +26,7 @@ class CashRegister
   end
   
   def items
-    new_register
+    new_register = CashRegister.new
     @item 
   end  
 
