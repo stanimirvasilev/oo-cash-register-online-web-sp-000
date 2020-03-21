@@ -26,10 +26,7 @@ class CashRegister
   end
   
   def items(items)
-    new_register = CashRegister.new
-    @items = []
-    @items << items
-    @items
+    @item
   end  
 
   
